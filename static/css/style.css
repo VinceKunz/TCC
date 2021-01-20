@@ -1,0 +1,122 @@
+html {
+    background-color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: white;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 34px;
+    text-align: left;
+    color: #679436;
+}
+
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: left;
+    color: #A5BE00;
+}
+
+h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 21px;
+    text-align: left;
+    color: #05668D;
+}
+
+a {
+    background-color: #3498db;
+    box-shadow: 0 5px 0 darkblue;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 15px;
+    position: relative;
+    text-decoration: none;
+}
+
+a:hover {
+  background-color:orangered;
+}
+
+a:active {
+  box-shadow: none;
+  top: 5px;
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14pt;
+}
+
+table {
+    width: 100%;
+}
+
+.home {
+    padding-top: 15px;
+}
+
+.mn_cells {
+    width: 300px;
+    text-align: center;
+}
+
+.mn_margin {
+    width: 70px;
+}
+
+#welcome {
+    padding-bottom: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14pt;
+}
+
+#menu {
+    padding-bottom: 25px;
+}
+
+#mn_table {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#csv {
+    border-collapse: collapse;
+}
+
+#csv td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+}
+
+#csv tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#csv tr:hover {
+    background-color: #dddddd;
+}
+
+#clock {
+    background-color: rgb(245, 243, 216);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+#image {
+    padding-top: 5px;
+    padding-bottom: 15px;
+}

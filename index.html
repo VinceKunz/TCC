@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My portfolio app</title>
+    <link href="/static/css/style.css" rel="stylesheet">
+</head>
+<body>
+    <header id="welcome">
+        <p>Welcome! Please enter your first name:&nbsp;
+        <input type="text" value="" placeholder="Enter your name here..." id="firstname" class="textbox">&nbsp;
+        <input type="button" value="Submit" id="identity">
+        <hr>
+    </header>
+
+    <div id="menu">
+        <table id="mn_table">
+            <tr>
+                <td class="mn_cells"><a href="/add">Add asset</a></td>
+                <td class="mn_margin">&nbsp;</td>
+                <td class="mn_cells"><a href="/search">Search asset</a></td>
+                <td class="mn_margin">&nbsp;</td>
+                <td class="mn_cells"><a href="/delete">Remove asset</a></td>
+            </tr>
+        </table>
+    </div>
+
+    <h1>My portfolio app</h1>
+    <h2>My assets</h2>
+
+    <div id="csv">
+        <p id="assets">$$ASSETS$$</p>
+    </div>
+
+    <div>
+        <h3>New York stock exchanges</h3>
+        <p id="clock">$$CLOCK$$</p>
+    </div>
+    
+    <h2>Other information</h2>
+    <h3>Cryptocurrencies</h3>
+
+    <div>
+        <p id="moves">$$MOVES$$</p>
+    </div>
+
+    <div>
+        <h3>NASDAQ stocks</h3>
+        <p>$$VALUE$$</p>
+    </div>
+
+    <div id="image">
+        <img src="static/img/laptop.jpg" width="800px" alt="Using the app everywhere">
+    </div>
+
+    <script src="static/js/script.js"></script>
+
+</body>
+</html>
